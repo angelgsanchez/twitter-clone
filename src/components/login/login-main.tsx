@@ -49,23 +49,10 @@ export function LoginMain(): JSX.Element {
             </Button>
             
             <div className='grid w-full grid-cols-[1fr,auto,1fr] items-center gap-2'>
-              <i className='border-b border-light-border dark:border-dark-border' />
-              <p>or</p>
-              <i className='border-b border-light-border dark:border-dark-border' />
             </div>
             
           </div>
-          <div className='flex flex-col gap-3'>
-            <p className='font-bold'>¿Ya tienes una cuenta? </p>
-            <Button
-              className='border border-light-line-reply font-bold text-accent-blue hover:bg-accent-blue/10
-                         focus-visible:bg-accent-blue/10 focus-visible:!ring-accent-blue/80 active:bg-accent-blue/20
-                         dark:border-light-secondary'
-              onClick={signInWithGoogle}
-            >
-              Sign in
-            </Button>
-          </div>
+          
         </div>
       </div>
     </main>
